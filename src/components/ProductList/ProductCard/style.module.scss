@@ -1,0 +1,43 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid var(--Gray-100);
+	border-radius: 5px;
+	
+
+	.imgBox{
+		display: inline-flex;
+		align-items: end;
+		justify-content: center;
+		width: 300px;
+		height: 150px;
+		background-color: var(--Gray-0);
+
+		overflow: hidden;
+	}
+
+	.infoBox{
+		display: flex;
+		flex-direction: column;
+		padding: 20px;
+		gap: 23px;
+
+		button{
+			max-width: 106px;
+			max-height: 40px;
+			
+			transition: 600ms;
+		}
+	}
+
+	transition: 600ms;
+
+	&:hover{
+		border-color: var(--color-primary);
+	}
+
+	&:hover >div > button{
+		background-color: var(--color-primary);
+	}
+}
+

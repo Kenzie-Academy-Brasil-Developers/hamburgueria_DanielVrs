@@ -1,0 +1,29 @@
+.btn {
+	display: inline-flex;
+	height: 3rem; //48px
+	padding: 0.8125rem 1.25rem; // 13px 20px
+	justify-content: center;
+	align-items: center;
+	gap: 10px; 
+	flex-shrink: 0;
+
+	font-family: var(--font-family-primary) ;
+	font-size: 1rem; //16px
+	font-weight: 600;
+	color: var(--white);
+	
+	background-color: var(--bgc-btn);
+	
+	border-radius: 8px;
+	
+	cursor: pointer;
+	
+	&:hover{
+		background-color: var(--color-primary);
+	}
+}
+
+.icon{
+	cursor: pointer;
+}
+

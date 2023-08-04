@@ -1,0 +1,35 @@
+.inputDefault {
+	background-color: var(--white) ;
+	border: 2px solid var(--grey-100);
+
+	border-radius: 8px;
+	height: 48px;
+	padding-left: 16px;
+	width: 100%;
+
+	font-family: var(---font-family-primary);
+	font-weight: 400;
+	font-size: 1rem; // 16px
+	color: var(--grey-100);
+
+	&::placeholder{
+		color: blue ;
+	}
+
+	:focus{
+		border: 2px solid var(--Gray-600);
+	}
+
+	&.sm {
+		max-width:8rem; //128px
+	}
+
+	&.lg{
+		max-width: 20.3125rem; //325px
+	}
+
+	&::-webkit-outer-spin-button,
+	&::-webkit-inner-spin-button{
+		appearance: none;
+	}
+}

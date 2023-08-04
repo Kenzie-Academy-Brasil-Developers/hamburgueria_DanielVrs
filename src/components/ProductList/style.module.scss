@@ -1,0 +1,17 @@
+.productList {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	overflow-x: scroll;
+	margin-top: 34px;
+	
+	@media(min-width: 720px)
+	{
+		gap: 36px;
+		margin-top: 20px ;
+		flex-wrap: wrap;
+		overflow-x: hidden;
+		
+	}
+}
+

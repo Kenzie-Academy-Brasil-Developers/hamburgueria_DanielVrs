@@ -1,0 +1,19 @@
+.cartCard{
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	
+	div{
+		display: flex;
+		align-items: start;
+		gap: 10px;
+		
+		img{
+			background-color: var(--Gray-100);
+			width: 82px;
+			height: 82px;
+
+			border-radius: 5px;
+		}
+	}
+}

@@ -1,0 +1,28 @@
+:root {
+	--font-family-primary:'Inter', sans-serif;
+	
+	--color-primary: #27AE60;
+	--Color-Secondary: #EB5757;
+	
+	--Gray-600: #333333;
+	--Gray-300: #828282;
+	--Gray-100: #E0E0E0;
+	--Gray-0: #F5F5F5;
+	--white: #FFFFFF;
+
+	--bgc-btn: #BDBDBD;
+
+	--negative: #E60000;
+	--warning: #FFCD07;
+	--sucess: #168821;
+	--information: #155BCB;
+
+	--color-black20: rgba(0,0,0, .2)
+}
+
+.container{
+	max-width: 85.5rem; // 1368px
+	width: 100%;
+	padding: 27px 20px; //27px 20px
+	margin: 0 auto;
+}
